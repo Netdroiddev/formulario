@@ -92,14 +92,3 @@ DATA_UPLOAD_MAX_MEMORY_SIZE = 5242880  # 5 MB
 FILE_UPLOAD_MAX_MEMORY_SIZE = 5242880  # 5 MB
 
 
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',  # Motor de la base de datos
-        'NAME': 'FIRMAS',                # Nombre de tu base de datos
-        'USER': 'root',                 # Usuario de la base de datos
-        'PASSWORD': 'Camelo10@#*',          # Contraseña del usuario
-        'HOST': '69.197.142.191',                  # Dirección del servidor (localhost si es local)
-        'PORT': '3306',                       # Puerto de la base de datos (3306 por defecto)
-        },
- }
